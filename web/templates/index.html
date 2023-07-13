@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webcam Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Webcam Prediction</h1>
+        <video id="video" autoplay></video>
+        <div id="prediction"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='prediction.js') }}"></script>
+</body>
+</html>
